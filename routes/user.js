@@ -1,20 +1,18 @@
 module.exports = app => {
     const User = app.models.user;
-    app.get("/login", (req, res) => {
-        var email = req.body.email;
-        var password = req.body.password;
-        User.getUser(email,password, (err,rows) => {
+    app.post("/login", (req, res) => {
+        User.getUser(req.body,function(err,count){
             if(err) {
                 res.status(400).json(err);
             }
             else
             {
-                res.json(rows);
+                res.json(req.body);
             }
         });
     });
     app.post("/create-user", (req, res) => {
-        files.createUser(req.body,function(err,count){
+        User.createUser(req.body,function(err,count){
             if(err)
             {
                 res.status(400).json(err);
