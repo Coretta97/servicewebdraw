@@ -8,6 +8,9 @@ module.exports = app => {
         createFile: (file, callback) => {
             return con.query('Insert into files(name, user_id, datefile) values(?,?,?)',[file.name, file.user_id,now()], callback);
         },
+        saveFile: (file, callback) => {
+            return con.query('Update files set name = ? and datefile = ? where user_id = ?',[file.name,now(), file.user_id], callback);
+        },
         deleteFile: (user_id,name, callback) => {
             return con.query('Delete from files WHERE user_id = ? and name =?',[user_id,name,now()], callback);
         }
