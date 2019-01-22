@@ -1,9 +1,9 @@
 module.exports = app => {
     const User = app.models.user;
     
-    app.get("/Connexion/:name/:pw", (req, res) => {
-        var name = req.params.name;
-        var pw = req.params.pw;
+    app.get("/login", (req, res) => {
+        var name = req.body.email;
+        var pw = req.body.password;
         User.getUser(name,pw, (err,rows) => {
             if(err) {
                 res.status(400).json(err);
@@ -14,7 +14,7 @@ module.exports = app => {
             }
         });
     });
-    app.post("/Creerutilisateur", (req, res) => {
+    app.post("/register", (req, res) => {
         files.createUser(req.body,function(err,count){
             if(err)
             {
