@@ -13,7 +13,7 @@ module.exports = app => {
             }
         });
     });
-    app.post("/enregistrerfichier", (req, res) => {
+    app.post("/enregistrer-fichier", (req, res) => {
         files.createFile(req.body,function(err,count){
             if(err)
             {
@@ -24,7 +24,7 @@ module.exports = app => {
             }
         });
     });
-    app.get("/supprimerfichier/:id/:name", (req, res) => {
+    app.get("/supprimer-fichier/:id/:name", (req, res) => {
         var id = req.params.id;
         var name = req.params.name;
         files.deleteFile(id,name, (err,rows) => {

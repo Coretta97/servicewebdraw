@@ -1,10 +1,10 @@
 module.exports = app => {
     const User = app.models.user;
     
-    app.get("/Connexion/:name/:pw", (req, res) => {
-        var name = req.params.name;
+    app.get("/connexion/:email/:pw", (req, res) => {
+        var email = req.params.email;
         var pw = req.params.pw;
-        User.getUser(name,pw, (err,rows) => {
+        User.getUser(email,pw, (err,rows) => {
             if(err) {
                 res.status(400).json(err);
             }
@@ -14,7 +14,7 @@ module.exports = app => {
             }
         });
     });
-    app.post("/Creerutilisateur", (req, res) => {
+    app.post("/creer-utilisateur", (req, res) => {
         files.createUser(req.body,function(err,count){
             if(err)
             {
