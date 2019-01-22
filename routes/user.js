@@ -1,6 +1,5 @@
 module.exports = app => {
     const User = app.models.user;
-    
     app.get("/login", (req, res) => {
         var email = req.body.email;
         var password = req.body.password;
@@ -14,7 +13,7 @@ module.exports = app => {
             }
         });
     });
-    app.post("/register", (req, res) => {
+    app.post("/create-user", (req, res) => {
         files.createUser(req.body,function(err,count){
             if(err)
             {
