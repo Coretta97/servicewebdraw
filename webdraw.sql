@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 4.7.4
 -- https://www.phpmyadmin.net/
 --
--- Hôte : 127.0.0.1
--- Généré le :  mar. 22 jan. 2019 à 09:47
--- Version du serveur :  10.1.37-MariaDB
--- Version de PHP :  7.3.0
+-- Hôte : localhost
+-- Généré le :  mar. 22 jan. 2019 à 20:03
+-- Version du serveur :  10.1.28-MariaDB
+-- Version de PHP :  7.1.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -43,6 +43,7 @@ CREATE TABLE `files` (
 
 CREATE TABLE `user` (
   `iduser` int(11) NOT NULL,
+  `username` varchar(255) NOT NULL,
   `last_name` varchar(255) NOT NULL,
   `first_name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
@@ -65,7 +66,8 @@ ALTER TABLE `files`
 -- Index pour la table `user`
 --
 ALTER TABLE `user`
-  ADD PRIMARY KEY (`iduser`);
+  ADD PRIMARY KEY (`iduser`),
+  ADD UNIQUE KEY `username` (`username`);
 
 --
 -- AUTO_INCREMENT pour les tables déchargées

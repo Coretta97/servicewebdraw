@@ -2,14 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0cb4c4f-e7fb-4986-99c3-77b223ad0268" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/servicewebdraw.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/middlewares.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/middlewares.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/babel" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/babel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/babel-doctor" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/babel-doctor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/babel-external-helpers" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/babel-external-helpers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/babel-node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/babel-node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-cli/bin/babel-doctor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-cli/bin/babel-doctor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-cli/bin/babel-external-helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-cli/bin/babel-external-helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-cli/bin/babel-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-cli/bin/babel-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-cli/bin/babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-cli/bin/babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-cli/lib/babel-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-cli/lib/babel-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-cli/lib/babel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-cli/lib/babel/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-cli/scripts/bootstrap.sh" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-cli/scripts/bootstrap.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-preset-es2015/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-preset-es2015/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/consign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/consign/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express-list-endpoints/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-list-endpoints/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mysql/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/Gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/LICENSE-MIT" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/LICENSE-MIT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/examples/make_ppsx.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/examples/make_ppsx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/examples/make_pptx.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/examples/make_pptx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/examples/make_pptx_charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/examples/make_pptx_charts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/examples/make_table_cell_span.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/examples/make_table_cell_span.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/examples/make_xlsx.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/examples/make_xlsx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/examples/pptx_server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/examples/pptx_server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/examples/test_pptx.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/examples/test_pptx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/examples/themes/testTheme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/examples/themes/testTheme.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/lib/charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/lib/charts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/lib/docxplg-headfoot.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/lib/docxplg-headfoot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/lib/genofficetable.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/lib/genofficetable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/lib/genpptx.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/lib/genpptx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/lib/genxlsx.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/lib/genxlsx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/lib/msofficegen.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/lib/msofficegen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/lib/officechart.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/lib/officechart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/lib/pptxfields.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/lib/pptxfields.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/lib/pptxplg-speakernotes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/lib/pptxplg-speakernotes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/lib/pptxplg-widescreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/lib/pptxplg-widescreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/lib/pptxshapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/lib/pptxshapes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/lib/tmpl/_rels/.rels" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/lib/tmpl/_rels/.rels" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/lib/tmpl/docProps/core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/lib/tmpl/docProps/core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/lib/tmpl/xl/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/lib/tmpl/xl/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/lib/tmpl/xl/theme/theme1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/lib/tmpl/xl/theme/theme1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/manual/README-pptx.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/manual/README-pptx.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/manual/README-xlsx.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/manual/README-xlsx.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/manual/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/manual/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/plugins/templates/pptx/pptxplg-example.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/plugins/templates/pptx/pptxplg-example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/plugins/templates/types/genmymstype.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/plugins/templates/types/genmymstype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/plugins/templates/types/genmytype.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/plugins/templates/types/genmytype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/test/test-docx-header-footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/test/test-docx-header-footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/test/test-pptx-charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/test/test-pptx-charts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/test/test-pptx-layouts.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/test/test-pptx-layouts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/test/test-pptx-nocharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/test/test-pptx-nocharts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/test/test-pptx-speakernotes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/test/test-pptx-speakernotes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/test/test-xlsx.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/test/test-xlsx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/test/test_basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/test/test_basic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/officegen/test_files/charts-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/officegen/test_files/charts-data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdraw.sql" beforeDir="false" afterPath="$PROJECT_DIR$/webdraw.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,35 +79,17 @@
       <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="225">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="files.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="files.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/files.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="225">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -64,8 +102,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/routes/user.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/routes/user.js" />
+        <option value="$PROJECT_DIR$/models/user.js" />
+        <option value="$PROJECT_DIR$/libs/boot.js" />
+        <option value="$PROJECT_DIR$/libs/middlewares.js" />
       </list>
     </option>
   </component>
@@ -81,9 +122,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="673" />
-    <option name="height" value="555" />
+    <option name="x" value="404" />
+    <option name="y" value="210" />
+    <option name="width" value="760" />
+    <option name="height" value="652" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -116,6 +158,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -139,12 +186,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548172732682</updated>
       <workItem from="1548172734180" duration="3176000" />
-      <workItem from="1548180020379" duration="1101000" />
+      <workItem from="1548180020379" duration="3446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4277000" />
+    <option name="totallyTimeSpent" value="6622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -157,7 +204,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32084692" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.43811074" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25377643" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -197,31 +244,72 @@
     <entry file="file://$PROJECT_DIR$/routes/files.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="150">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/files.js">
+    <entry file="file://$PROJECT_DIR$/connexion.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="45">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/middlewares.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/boot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serveur.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdraw.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="225">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/routes/files.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="225">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>

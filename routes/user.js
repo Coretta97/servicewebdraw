@@ -2,9 +2,9 @@ module.exports = app => {
     const User = app.models.user;
     
     app.get("/login", (req, res) => {
-        var name = req.body.email;
-        var pw = req.body.password;
-        User.getUser(name,pw, (err,rows) => {
+        var email = req.body.email;
+        var password = req.body.password;
+        User.getUser(email,password, (err,rows) => {
             if(err) {
                 res.status(400).json(err);
             }
