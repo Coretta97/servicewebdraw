@@ -35,16 +35,14 @@ module.exports = app => {
             }
         });
     });
-    app.get("/delete-file/:id/:name", (req, res) => {
-        var id = req.params.id;
-        var name = req.params.name;
-        files.deleteFile(id,name, (err,rows) => {
+    app.post("/delete-file", (req, res) => {
+        files.deleteFile(req.body, (err,rows) => {
             if(err) {
                 res.status(400).json(err);
             }
             else
             {
-                res.json(rows);
+                res.json(req.body);
             }
         });
     });
