@@ -35,3 +35,5 @@ Thumbs.db
 *.launch
 .settings/
 *.sublime-workspace
+
+connexion.js
