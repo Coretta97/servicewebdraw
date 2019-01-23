@@ -2,7 +2,7 @@ module.exports = app => {
     var con = require('../connexion');
     return {
         getUser:(user,callback) => {
-            con.query('SELECT * FROM user WHERE email = ? AND password = ?',[user.email,user.password], callback);
+            con.query('SELECT * FROM user WHERE (email = ? OR username = ? ) AND password = ? LIMIT 1',[user.email, user.email, user.password], callback);
         },
         createUser: (user, callback) => {
             con.query('INSERT INTO user(username,last_name,first_name,email,password,tel) VALUES(?,?,?,?,?,?)',[user.username, user.last_name, user.first_name,user.email,user.password,user.tel],function (err, rows) {
@@ -15,6 +15,10 @@ module.exports = app => {
                 }
             });
 
+        },
+
+        getEmailsUsernames: (callback) => {
+            con.query('SELECT email, username FROM user',callback)
         }
     }
 }
