@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost
--- Généré le :  mar. 22 jan. 2019 à 20:03
+-- Généré le :  ven. 25 jan. 2019 à 13:05
 -- Version du serveur :  10.1.28-MariaDB
 -- Version de PHP :  7.1.10
 
@@ -32,8 +32,14 @@ CREATE TABLE `files` (
   `idfile` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
   `user_id` int(11) NOT NULL,
-  `datefile` datetime NOT NULL
+  `datefile` datetime NOT NULL,
+  `content` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Déchargement des données de la table `files`
+--
+
 
 -- --------------------------------------------------------
 
@@ -50,6 +56,10 @@ CREATE TABLE `user` (
   `password` varchar(255) NOT NULL,
   `tel` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Déchargement des données de la table `user`
+--
 
 --
 -- Index pour les tables déchargées
@@ -77,13 +87,13 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT pour la table `files`
 --
 ALTER TABLE `files`
-  MODIFY `idfile` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `idfile` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT pour la table `user`
 --
 ALTER TABLE `user`
-  MODIFY `iduser` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `iduser` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
 -- Contraintes pour les tables déchargées

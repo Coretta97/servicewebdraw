@@ -33,10 +33,15 @@ module.exports = app => {
         files.saveFile(req.body,function(err,count){
             if(err)
             {
-                res.status(400).json(err);
+                res.json({
+                    'error' : 1
+                })
+
             }
             else{
-                res.json(req.body);
+                res.json({
+                    'error' : 0
+                });
             }
         });
     });
