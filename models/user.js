@@ -1,12 +1,11 @@
 module.exports = app => {
     var con = require('../connexion');
-    var crytojs = require("crypto-js/sha256")
     return {
         getUser:(user,callback) => {
-            con.query('SELECT * FROM user WHERE (email = ? OR username = ? ) AND password = ? LIMIT 1',[user.email, user.email,crytojs(user.password).toString()], callback);
+            con.query('SELECT * FROM user WHERE (email = ? OR username = ? ) AND password = ? LIMIT 1',[user.email, user.email, user.password], callback);
         },
         createUser: (user, callback) => {
-            con.query('INSERT INTO user(username,last_name,first_name,email,password,tel) VALUES(?,?,?,?,?,?)',[user.username, user.last_name, user.first_name,user.email,crytojs(user.password).toString(),user.tel],function (err, rows) {
+            con.query('INSERT INTO user(username,last_name,first_name,email,password,tel) VALUES(?,?,?,?,?,?)',[user.username, user.last_name, user.first_name,user.email,user.password,user.tel],function (err, rows) {
                 if (err) {
                     callback(err, null);
                 }

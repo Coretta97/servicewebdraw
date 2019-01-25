@@ -1,7 +1,7 @@
 module.exports = app => {
     var con = require('../connexion');
     return {
-        
+
         getFiles:(user_id,callback) => {
             return con.query('SELECT * FROM files WHERE user_id = ?',[user_id], callback);
         },

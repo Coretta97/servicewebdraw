@@ -1,15 +1,20 @@
 module.exports = app => {
     const files = app.models.files;
-    
+
     app.get("/files/:id", (req, res) => {
         var id = req.params.id;
         files.getFiles(id, (err,rows) => {
             if(err) {
-                res.status(400).json(err);
+                res.json({
+                    'error':  1
+                })
             }
             else
             {
-                res.json(rows);
+                res.json({
+                    'files': rows
+                })
+
             }
         });
     });
