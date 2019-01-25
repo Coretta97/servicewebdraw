@@ -5,16 +5,11 @@ module.exports = app => {
         var id = req.params.id;
         files.getFiles(id, (err,rows) => {
             if(err) {
-                res.json({
-                    'error':  1
-                })
+                res.status(400).json(err);
             }
             else
             {
-                res.json({
-                    'files': rows
-                })
-
+                res.json(rows);
             }
         });
     });
