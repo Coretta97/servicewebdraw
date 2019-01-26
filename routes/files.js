@@ -19,13 +19,17 @@ module.exports = app => {
         });
     });
     app.post("/create-file", (req, res) => {
-        files.createFile(req.body,function(err,count){
+        files.createFile(req.body,function(err,row){
             if(err)
             {
-                res.status(400).json(err);
+                res.json({
+                    'error': 1
+                })
             }
             else{
-                res.json(req.body);
+                res.json( {
+                    'file': row[0]
+                })
             }
         });
     });
@@ -48,11 +52,15 @@ module.exports = app => {
     app.post("/delete-file", (req, res) => {
         files.deleteFile(req.body, (err,rows) => {
             if(err) {
-                res.status(400).json(err);
+                res.json({
+                    'error' : 1
+                })
             }
             else
             {
-                res.json(req.body);
+                res.json({
+                    'error': 0
+                })
             }
         });
     });
